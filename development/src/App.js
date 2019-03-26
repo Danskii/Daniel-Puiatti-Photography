@@ -22,8 +22,14 @@ class App extends Component {
           width="auto"
           crop="scale"
           class="cld-responsive"
+          opacity="40"
+          background="black"
+         
         >
-        <Image publicId={`Paris/Paris-${this.getRandomNumber()}`} />
+        <Image publicId={`Paris/Paris-${this.getRandomNumber()}`}>
+   
+        </Image>
+        
         </CloudinaryContext>
       </div>
     );
