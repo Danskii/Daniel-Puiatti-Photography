@@ -9,7 +9,7 @@ class testGallery extends Component {
     super(props);
     this.state = {
       gallery: [],
-      photos: []
+
     };
 
     
@@ -37,7 +37,7 @@ class testGallery extends Component {
             fetchFormat="auto"
             dpr="auto"
             responsive
-            width="auto"
+            width="0.2"
             crop="scale"
             class="cld-responsive"
           >
@@ -51,7 +51,8 @@ class testGallery extends Component {
                         data.public_id
                       }.jpg`}
                     >
-                      <Image publicId={data.public_id} />
+                      <Image publicId={data.public_id}  />
+                      
                       
                     </a>
                     
