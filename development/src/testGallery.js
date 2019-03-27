@@ -4,7 +4,7 @@ import axios from 'axios';
 import Gallery from 'react-photo-gallery';
 
 
-class App extends Component {
+class testGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,5 +66,5 @@ class App extends Component {
   }
 }
 
-export default App;
+export default testGallery;
 
