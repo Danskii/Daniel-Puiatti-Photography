@@ -8,7 +8,8 @@ class testGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gallery: []
+      gallery: [],
+      photos: []
     };
 
     
