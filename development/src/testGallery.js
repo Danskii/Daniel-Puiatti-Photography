@@ -5,14 +5,7 @@ import axios from 'axios';
 import Lightbox from 'react-images';
 import CloudinaryImageTest from '../src/cloudinaryImageTest'
 
-const photos = [
-  {
-    src: {CloudinaryImageTest},
-    width: 4,
-    height: 3
-  },
 
-];
 
 class TestGallery extends React.Component {
   constructor() {
@@ -49,12 +42,12 @@ class TestGallery extends React.Component {
     return (
       <div>
         <Gallery 
-        photos={photos} 
+        photos={CloudinaryImageTest} 
         onClick={this.openLightbox}    
         ImageComponent={CloudinaryImageTest}
         
         />
-        <Lightbox images={photos}
+        <Lightbox images={CloudinaryImageTest}
           onClose={this.closeLightbox}
           onClickPrev={this.gotoPrevious}
           onClickNext={this.gotoNext}
