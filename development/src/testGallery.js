@@ -1,74 +1,75 @@
-import React, { Component } from "react";
-import { Image, Transformation, CloudinaryContext } from "cloudinary-react";
-import axios from 'axios';
+import React from 'react';
+import { render } from 'react-dom';
 import Gallery from 'react-photo-gallery';
+import axios from 'axios';
+import Lightbox from 'react-images';
+import CloudinaryImageTest from '../src/cloudinaryImageTest'
 
+const photos = [
+  {
+    src: {CloudinaryImageTest},
+    width: 4,
+    height: 3
+  },
 
-class testGallery extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      gallery: [],
+];
 
-    };
-
-    
+class TestGallery extends React.Component {
+  constructor() {
+    super();
+    this.state = { currentImage: 0 };
+    this.closeLightbox = this.closeLightbox.bind(this);
+    this.openLightbox = this.openLightbox.bind(this);
+    this.gotoNext = this.gotoNext.bind(this);
+    this.gotoPrevious = this.gotoPrevious.bind(this);
   }
-
-
-    componentDidMount() { 
-    axios
-      .get("http://res.cloudinary.com/dzyrd6s5u/image/list/Toronto.json")
-      .then(res => {
-        console.log(res.data.resources);
-        this.setState({ gallery: res.data.resources });
-      });
+  openLightbox(event, obj) {
+    this.setState({
+      currentImage: obj.index,
+      lightboxIsOpen: true,
+    });
   }
-
-
+  closeLightbox() {
+    this.setState({
+      currentImage: 0,
+      lightboxIsOpen: false,
+    });
+  }
+  gotoPrevious() {
+    this.setState({
+      currentImage: this.state.currentImage - 1,
+    });
+  }
+  gotoNext() {
+    this.setState({
+      currentImage: this.state.currentImage + 1,
+    });
+  }
   render() {
     return (
-      <div className="main">
-        <h1>Galleria</h1>
-        <div className="gallery">
-          <CloudinaryContext
-            cloudName="dzyrd6s5u"
-            quality="auto"
-            fetchFormat="auto"
-            dpr="auto"
-            responsive
-            width="auto"
-            crop="scale"
-            class="cld-responsive"
-          >
-            {this.state.gallery.map(data => {
-              return (
-                <div className="responsive" key={data.public_id}>
-                  <div className="img">
-                    <a
-                      target="_blank"
-                      href={`http://res.cloudinary.com/dzyrd6s5u/image/upload/${
-                        data.public_id
-                      }.jpg`}
-                    >
-                      <Image publicId={data.public_id}>
-                   
-                      </Image>
-                      
-                      
-                    </a>
-                    
-                  </div>
-                </div>
-              );
-            })}
-          </CloudinaryContext>
-          <div className="clearfix" />
-        </div>
+      <div>
+        <Gallery 
+        photos={photos} 
+        onClick={this.openLightbox}    
+        ImageComponent={CloudinaryImageTest}
+        
+        />
+        <Lightbox images={photos}
+          onClose={this.closeLightbox}
+          onClickPrev={this.gotoPrevious}
+          onClickNext={this.gotoNext}
+          currentImage={this.state.currentImage}
+          isOpen={this.state.lightboxIsOpen}
+        />
+
+
+       
       </div>
-    );
+
+      
+    )
   }
 }
 
-export default testGallery;
+export default TestGallery;
 
