@@ -1,9 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Gallery from 'react-photo-gallery';
-import Lightbox from 'react-images';
-import TestGallery from '../src/testGallery'
-import CloudinaryImageTest from '../src/cloudinaryImageTest'
+import PhotoGallery from '../src/photoGallery'
+
 
 
 class App extends React.Component {
@@ -13,9 +11,8 @@ class App extends React.Component {
       <div>
         
      
+<PhotoGallery />
 
-<CloudinaryImageTest></CloudinaryImageTest>
-       
       </div>
 
       
