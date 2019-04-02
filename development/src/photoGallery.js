@@ -254,19 +254,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252334/Paris/Paris-15.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252334/Paris/Paris-15.jpg"
 },
-{
-    "public_id": "Paris/Paris-13",
-    "format": "jpg",
-    "version": 1540252332,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-22T23:52:12Z",
-    "bytes": 419964,
-    "width": 2448,
-    "height": 3264,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252332/Paris/Paris-13.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252332/Paris/Paris-13.jpg"
-},
+// {
+//     "public_id": "Paris/Paris-13",
+//     "format": "jpg",
+//     "version": 1540252332,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-22T23:52:12Z",
+//     "bytes": 419964,
+//     "width": 2448,
+//     "height": 3264,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252332/Paris/Paris-13.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1540252332/Paris/Paris-13.jpg"
+// },
 {
     "public_id": "Paris/Paris-14",
     "format": "jpg",
@@ -436,19 +436,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215915/Hawaii/Hawaii-36.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215915/Hawaii/Hawaii-36.jpg"
 },
-{
-    "public_id": "Hawaii/Hawaii-35",
-    "format": "jpg",
-    "version": 1539215912,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-10T23:58:32Z",
-    "bytes": 1232038,
-    "width": 3264,
-    "height": 2448,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215912/Hawaii/Hawaii-35.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215912/Hawaii/Hawaii-35.jpg"
-},
+// {
+//     "public_id": "Hawaii/Hawaii-35",
+//     "format": "jpg",
+//     "version": 1539215912,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-10T23:58:32Z",
+//     "bytes": 1232038,
+//     "width": 3264,
+//     "height": 2448,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215912/Hawaii/Hawaii-35.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215912/Hawaii/Hawaii-35.jpg"
+// },
 {
     "public_id": "Hawaii/Hawaii-33",
     "format": "jpg",
@@ -852,19 +852,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215698/Hawaii/Hawaii-6.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215698/Hawaii/Hawaii-6.jpg"
 },
-{
-    "public_id": "Hawaii/Hawaii-2",
-    "format": "jpg",
-    "version": 1539215691,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-10T23:54:51Z",
-    "bytes": 641200,
-    "width": 3264,
-    "height": 2448,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215691/Hawaii/Hawaii-2.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215691/Hawaii/Hawaii-2.jpg"
-},
+// {
+//     "public_id": "Hawaii/Hawaii-2",
+//     "format": "jpg",
+//     "version": 1539215691,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-10T23:54:51Z",
+//     "bytes": 641200,
+//     "width": 3264,
+//     "height": 2448,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215691/Hawaii/Hawaii-2.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539215691/Hawaii/Hawaii-2.jpg"
+// },
 {
     "public_id": "Hawaii/Hawaii-4",
     "format": "jpg",
@@ -1008,32 +1008,32 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129961/Japan/Japan-24.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129961/Japan/Japan-24.jpg"
 },
-{
-    "public_id": "Japan/Japan-19",
-    "format": "jpg",
-    "version": 1539129959,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-10T00:05:59Z",
-    "bytes": 708499,
-    "width": 1000,
-    "height": 1096,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129959/Japan/Japan-19.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129959/Japan/Japan-19.jpg"
-},
-{
-    "public_id": "Japan/Japan-22",
-    "format": "jpg",
-    "version": 1539129957,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-10T00:05:57Z",
-    "bytes": 514254,
-    "width": 2448,
-    "height": 3264,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129957/Japan/Japan-22.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129957/Japan/Japan-22.jpg"
-},
+// {
+//     "public_id": "Japan/Japan-19",
+//     "format": "jpg",
+//     "version": 1539129959,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-10T00:05:59Z",
+//     "bytes": 708499,
+//     "width": 1000,
+//     "height": 1096,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129959/Japan/Japan-19.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129959/Japan/Japan-19.jpg"
+// },
+// {
+//     "public_id": "Japan/Japan-22",
+//     "format": "jpg",
+//     "version": 1539129957,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-10T00:05:57Z",
+//     "bytes": 514254,
+//     "width": 2448,
+//     "height": 3264,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129957/Japan/Japan-22.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539129957/Japan/Japan-22.jpg"
+// },
 {
     "public_id": "Japan/Japan-25",
     "format": "jpg",
@@ -1632,19 +1632,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128642/Toronto/Toronto-49.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128642/Toronto/Toronto-49.jpg"
 },
-{
-    "public_id": "Toronto/Toronto-84",
-    "format": "jpg",
-    "version": 1539128638,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-09T23:43:58Z",
-    "bytes": 1038244,
-    "width": 3264,
-    "height": 2448,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128638/Toronto/Toronto-84.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128638/Toronto/Toronto-84.jpg"
-},
+// {
+//     // "public_id": "Toronto/Toronto-84",
+//     "format": "jpg",
+//     "version": 1539128638,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-09T23:43:58Z",
+//     "bytes": 1038244,
+//     "width": 3264,
+//     "height": 2448,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128638/Toronto/Toronto-84.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539128638/Toronto/Toronto-84.jpg"
+// },
 {
     "public_id": "Toronto/Toronto-83",
     "format": "jpg",
@@ -1944,19 +1944,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024302/Algonquin%20Park/Algonquin-Park-Ontario-14.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024302/Algonquin%20Park/Algonquin-Park-Ontario-14.jpg"
 },
-{
-    "public_id": "Algonquin Park/Algonquin-Park-Ontario-18",
-    "format": "jpg",
-    "version": 1539024299,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-08T18:44:59Z",
-    "bytes": 136669,
-    "width": 3264,
-    "height": 2448,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024299/Algonquin%20Park/Algonquin-Park-Ontario-18.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024299/Algonquin%20Park/Algonquin-Park-Ontario-18.jpg"
-},
+// {
+//     "public_id": "Algonquin Park/Algonquin-Park-Ontario-18",
+//     "format": "jpg",
+//     "version": 1539024299,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-08T18:44:59Z",
+//     "bytes": 136669,
+//     "width": 3264,
+//     "height": 2448,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024299/Algonquin%20Park/Algonquin-Park-Ontario-18.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539024299/Algonquin%20Park/Algonquin-Park-Ontario-18.jpg"
+// },
 {
     "public_id": "Algonquin Park/Algonquin-Park-Ontario-16",
     "format": "jpg",
@@ -2659,19 +2659,19 @@ const photos = [
     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019535/Toronto/Toronto-10.jpg",
     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019535/Toronto/Toronto-10.jpg"
 },
-{
-    "public_id": "Toronto/Toronto-4",
-    "format": "jpg",
-    "version": 1539019534,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-10-08T17:25:34Z",
-    "bytes": 678697,
-    "width": 3264,
-    "height": 2448,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019534/Toronto/Toronto-4.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019534/Toronto/Toronto-4.jpg"
-},
+// {
+//     "public_id": "Toronto/Toronto-4",
+//     "format": "jpg",
+//     "version": 1539019534,
+//     "resource_type": "image",
+//     "type": "upload",
+//     "created_at": "2018-10-08T17:25:34Z",
+//     "bytes": 678697,
+//     "width": 3264,
+//     "height": 2448,
+//     src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019534/Toronto/Toronto-4.jpg",
+//     "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1539019534/Toronto/Toronto-4.jpg"
+// },
 {
     "public_id": "Toronto/Toronto-5",
     "format": "jpg",
