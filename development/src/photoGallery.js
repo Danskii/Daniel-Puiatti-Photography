@@ -6,19 +6,6 @@ import Lightbox from 'react-images';
 
 
 const photos = [
-  {
-    "public_id": "sample",
-    "format": "jpg",
-    "version": 1543499236,
-    "resource_type": "image",
-    "type": "upload",
-    "created_at": "2018-11-29T13:47:16Z",
-    "bytes": 109669,
-    "width": 864,
-    "height": 576,
-    src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1543499236/sample.jpg",
-    "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1543499236/sample.jpg"
-},
 {
     "public_id": "Paris/Paris-29",
     "format": "jpg",
