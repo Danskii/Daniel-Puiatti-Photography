@@ -5,6 +5,7 @@ import Lightbox from 'react-images';
 
 
 
+
 const photos = [
 {
     "public_id": "Paris/Paris-29",
@@ -2765,8 +2766,11 @@ class PhotoGallery extends React.Component {
           currentImage: this.state.currentImage + 1,
         });
       }
+      componentDidMount() {
+        photos.sort(function() { return 0.5 - Math.random() });
+        }
   render() {
-    photos.sort(function() { return 0.5 - Math.random() });
+  
     return (
       <div>
         <Gallery photos={photos} columns={columns} onClick={this.openLightbox} />
