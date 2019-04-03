@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Daniel-Puiatti-Photography/precache-manifest.59f7efc77df4e00a00112c147d97fe74.js"
+  "/Daniel-Puiatti-Photography/precache-manifest.918da92e2500d0916da4b482ad2ec3b4.js"
 );
 
 workbox.clientsClaim();

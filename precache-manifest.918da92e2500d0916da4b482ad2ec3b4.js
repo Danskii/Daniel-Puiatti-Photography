@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/Daniel-Puiatti-Photography/static/js/runtime~main.ffd4b2d6.js"
   },
   {
-    "revision": "2698aefd6ac133b9a4aa",
-    "url": "/Daniel-Puiatti-Photography/static/js/main.99ac73d1.chunk.js"
+    "revision": "5923154442387f1ebbb4",
+    "url": "/Daniel-Puiatti-Photography/static/js/main.8e88a009.chunk.js"
   },
   {
     "revision": "31a18071e7dff3aba1c5",
     "url": "/Daniel-Puiatti-Photography/static/js/2.0568c3cd.chunk.js"
   },
   {
-    "revision": "2698aefd6ac133b9a4aa",
+    "revision": "5923154442387f1ebbb4",
     "url": "/Daniel-Puiatti-Photography/static/css/main.8d057b1e.chunk.css"
   },
   {
-    "revision": "4419ce549b8cbdf0486809f42e3634e6",
+    "revision": "89c5766c19cb8d6fac0291f4e4bba5ef",
     "url": "/Daniel-Puiatti-Photography/index.html"
   }
 ];
