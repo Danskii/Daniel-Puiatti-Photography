@@ -5,9 +5,11 @@ import * as serviceWorker from './serviceWorker';
 import PhotoGallery from '../src/photoGallery'
 import Footer from '../src/footer'
 
+
 ReactDOM.render(
     <div>
 <PhotoGallery />
+
 <Footer />
 </div>
 ,document.getElementById('root'));
