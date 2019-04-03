@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Daniel-Puiatti-Photography/static/css/main.8d057b1e.chunk.css"
   },
   {
-    "revision": "60f2b19fcb82fe6c9c5b3ba55e2f3135",
+    "revision": "4419ce549b8cbdf0486809f42e3634e6",
     "url": "/Daniel-Puiatti-Photography/index.html"
   }
 ];
