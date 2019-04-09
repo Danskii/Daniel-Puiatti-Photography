@@ -2,11 +2,10 @@ import React from "react";
 import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Lightbox from 'react-images';
-
-
-
+import LazyLoad from "react-lazyload";
 
 const photos = [
+
     {
             "public_id": "Taiwan/Taiwan-81",
             "format": "jpg",
@@ -20,6 +19,7 @@ const photos = [
             src: "http://res.cloudinary.com/dzyrd6s5u/image/upload/v1554385132/Taiwan/Taiwan-81.jpg",
             "secure_url": "https://res.cloudinary.com/dzyrd6s5u/image/upload/v1554385132/Taiwan/Taiwan-81.jpg"
         },
+   
         {
             "public_id": "Taiwan/Taiwan-79",
             "format": "jpg",
@@ -5789,7 +5789,9 @@ class PhotoGallery extends React.Component {
   
     return (
       <div>
+        <LazyLoad height={100}>
         <Gallery photos={photos} columns={columns} onClick={this.openLightbox} />
+        </LazyLoad>
         <Lightbox images={photos}
           onClose={this.closeLightbox}
           onClickPrev={this.gotoPrevious}
